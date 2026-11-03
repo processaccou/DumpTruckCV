@@ -1,0 +1,22 @@
+# ==== 忽略所有大文件 ====
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.zip
+*.exe
+*.dll
+*.mp4
+*.avi
+*.mov
+*.pdf
+*.ttf
+*.jpg
+*.png
+*.cache
+
+# ==== 忽略整个数据集和训练输出文件夹 ====
+rk_train/
+train/
+onnxmodel/
+yolo预标注/
